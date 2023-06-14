@@ -1,0 +1,23 @@
+#carouselExampleCaptions{
+   width: 40%;
+   height: 350px; ;
+   flex-grow: 100%;
+   max-width: max-content;
+   
+   
+   }
+   footer{
+      min-height: 5pc;
+      height: 3cm;
+    font-size: smaller;
+    
+      
+
+   }
+icons{
+   height: 2cm;
+}
+   h2,h1,h3{
+      font-size: medium;
+   }
+   

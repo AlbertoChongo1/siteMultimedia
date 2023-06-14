@@ -1,0 +1,746 @@
+<html>
+
+<head>
+  <title>Chongo Computadores</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="aac.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="slides/favicom/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="slides/favicom/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="slides/favicom/favicon-16x16.png">
+  <link rel="manifest" href="slides/favicom/site.webmanifest">
+  <link rel="mask-icon" href="slides/favicom/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="slides/favicom/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/slides/favicom/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <style>
+    p.truncate-3l {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+<!---barra de navegaçao da parte de cima--->
+
+<body style="min-width:372px;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom shadow-sm mb-3">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <strong>Chongo Computers</strong> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="navbar-toggler-icon">
+
+        </span>
+
+      </button>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav flex-grow-1">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-white"> Principal</a>
+
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html" class="nav-link text-white"> Contacto</a>
+
+          </li>
+        </ul>
+
+        <div class="align-self-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="cadastro.html" class="nav-link text-white"> Quero me cadastrar</a>
+
+            </li>
+            <li class="nav-item">
+              <a href="entrar.html" class="nav-link text-white"> Entrar</a>
+            <li class="nav-item">
+              <a href="carinhocompras.html" class="nav-link text-white">
+                <svg class="icons" width="24" height="24" fill="currentColor">
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+
+                </svg>
+
+              </a>
+
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!--cabeçalho, onde contemos o slide--->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slides/AlbertoSLide1.png" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p class="text-success">Os melhores materiais informáticos para a voce</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="slides/slide90.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p class="text-danger">Os melhores materiais informáticos para a voce</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="slides/slide2000.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p class="text-dark">Os melhores materiais informáticos para a voce</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <!---inicio do menú--->
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5">
+          
+          
+              <select class="form-select form-select-sm">
+                <option>Ordenar pelo nome</option>
+                <option>Ordenar pelo menor preço</option>
+                <option>Ordenar pelo maio<form class=" justify-content-center justify-content-md-center mb-3 mb-md-0">
+            <div class="input-group input-group-sm">
+              <input type="text" class="form-control" placeholder="Digite aqui o que procura">
+              <button class="btn btn-primary">
+                Buscar
+
+              </button>
+
+
+            </div>
+          </form>
+
+        </div>
+        <!---selecionar o metodo de vizualizar os produtos--->
+        <div class="col-12 col-md-7">
+          <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+            <form class="ml-3 d-inline-br preço</option>
+              </select>
+
+            </form>
+            <nav class="d-inline block">
+              <ul class="pagination pagination-sm my-0">
+                <li class="page-item">
+                  <button class="page-link">1</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">2</button>
+
+                </li>
+                <li class="page-item disabled">
+                  <button class="page-link">3</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">4</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">5</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">6</button>
+
+                </li>
+              </ul>
+
+            </nav>
+
+          </div>
+
+        </div>
+
+        <!---Listagem de produtos--->
+      </div>
+      <hr class="mt-3">
+      <div class="row g-3">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/vender1.jfif" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Notebook Asus</h5>
+              <p class="card'text">
+                Este laptop para o dia-a-dia é alimentado por um processador Intel Celeron N4020,4 GB de RAM DDR4 e armazenamento SSD M.2 PCLe de 64 GB.
+                Leve e fino, este laptop Windows 10 (modo S) pesa pouco mais de 1,5Kg e temm menos de 2,5 cm de espessura.
+                
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/vender9.avif" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Notebook Acer Gamer</h5>
+              <p class="card'text p.truncate-3l">
+                Este laptop para o dia-a-dia é alimentado por um processador Intel Celeron N4020,4 GB de RAM DDR4 e armazenamento SSD M.2 PCLe de 64 GB.
+                Leve e fino, este laptop Windows 10 (modo S) pesa pouco mais de 1,5Kg e temm menos de 2,5 cm de espessura.
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <div>
+                <button class="btn btn-light disabled" disabled>
+                  <small>Reabastecendo Estoque</small>
+
+                </button>
+
+              </div>
+              <small class="text-danger"> <b>Produto Esgotado</b></small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/vender1.jfif" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Pc Gamer</h5>
+              <p class="card'text">
+                Este laptop para o dia-a-dia é alimentado por um processador Intel Celeron N4020,8 GB de RAM DDR4 e armazenamento SSD M.2 PCLe de 64 GB.
+                Leve e fino, este laptop Windows 10 (modo S) pesa pouco mais de 1,5Kg e temm menos de 2,5 cm de espessura.
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/venderDesktop.jpg" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Mac Desktop</h5>
+              <p class="card'text">
+                <h4>Produto:</h4> PC Mac WQHD FreeSync de 27´´ Odssey G5 com HDR(HDMI)
+                <h5>Cor:</h5>Preto
+                <h5>Categoria de Cor:</h5> Preto
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/pc4.webp" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Monitor Led Curved WQHD</h5>
+              <p class="card'text">
+                <h4>Produto:</h4> PC Mac WQHD FreeSync de 27´´ Odssey G5 com HDR(HDMI)
+                <h5>Cor:</h5>Preto
+                <h5>Categoria de Cor:</h5> Preto
+
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/edit1.jpg" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Pc Gamer</h5>
+              <p class="card'text">
+            PC Gamer Neologic X, tem processador  Intel core i7'10700 e placa de vídeo GTX 1650 com GB de VRAM.
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/vender11.webp" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Pc Gamer</h5>
+              <p class="card'text">
+                PC Gamer Neologic X, tem processador  Intel core i7'10700 e placa de vídeo GTX 1650 com GB de VRAM.
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/vender12.webp" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Pc Gamer</h5>
+              <p class="card'text">
+              PC concórdia Core I% 9400F Intel 16GB 1.000 120 GeForce GTX 1650.
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/impressora.png" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> impressora Plus MAx</h5>
+              <p class="card'text">
+                Economize tempo com os atalhos Smart Task do Aplicativo HP Smart e imprima e digitalize a partir do seu telefone. Tenha conexões perfeitas e soluções de segurança robustas. 
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/impressora2.png" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">impressora EPSON</h5>
+              <p class="card'text">
+                Para quem procura cor de alta qualidade, impressã sem fio e soluções inteligentes de mobilidade e segurança numa impressora, recomendamos a HP Colour Laserjet M255DW.
+
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/icons.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/VenderImpressora1.jpg" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> M255DW</h5>
+              <p class="card'text">
+                Economize tempo com os atalhos Smart Task do Aplicativo HP Smart e imprima e digitalize a partir do seu telefone. Tenha conexões perfeitas e soluções de segurança robustas. 
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <a href="" class="position-absolute right-0 p-2 text-danger">
+              <svg class="bi" width="24" weight="24" fill="currentColor">
+                <use xlink:href="/bi.svg#suit-heart" />
+              </svg>
+
+            </a>
+            <img src="slides/printer.webp" class="card-img-top">
+            <div class="card-header bg-primary">
+              <b>$150.00 Mzn</b>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> HP Colour Laserjet Pro</h5>
+              <p class="card'text">
+                Para quem procura cor de alta qualidade, impressã sem fio e soluções inteligentes de mobilidade e segurança numa impressora, recomendamos a HP Colour Laserjet M255DW.
+
+              </p>
+
+            </div>
+            <div class="card-footer">
+              <form class="d-block">
+                <button class="btn btn-primary">
+                  Adicionar ao carrinho
+                </button>
+
+              </form>
+              <small class="text-sucess">100 Unidades em estoque</small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <hr class="mt-3">
+      <div class="row pb-4">
+        <div class="col-12">
+          <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+            <form class="ml-3 d-inline-block">
+              <select class="form-select form-select-sm">
+                <option>Ordenar pelo nome</option>
+                <option>Ordenar pelo menor preço</option>
+                <option>Ordenar pelo maior preço</option>
+              </select>
+
+            </form>
+            <nav class="d-inline block">
+              <ul class="pagination pagination-sm my-0">
+                <li class="page-item">
+                  <button class="page-link">1</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">2</button>
+
+                </li>
+                <li class="page-item disabled">
+                  <button class="page-link">3</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">4</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">5</button>
+
+                </li>
+                <li class="page-item">
+                  <button class="page-link">6</button>
+
+                </li>
+              </ul>
+
+            </nav>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </main>
+  <div style="height:273px; " class="d-md-none"></div>
+  <div style="height:153px; " class="d-none d-md-block d-lg-none"></div>
+  <div style="height:129px; " class="d-none d-lg-block"></div>
+
+  <!---links do rodapé--->
+
+  <footer class="border-top navbar-fixed-bottom  text-muted bg-light">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-12 col-md-4 text-center text-dark text-md-left">
+          &copy; 2022- Chongo Computers. Rua irmaos Roby.
+
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <a href="privacidade.html" class="text-decoration-none text-dark"> Politica de Privacidade</a><br>
+          <a href="termos.html" class="text-decoration-none text-dark">Termos de Uso</a><br>
+          <a href="quemsomos.html" class="text-decoration-none text-dark"> Quem Somos</a><br>
+          <a href="trocas.html" class="text-decoration-none text-dark">Trocas e devolucoes</a>
+
+
+
+
+
+        </div>
+        <!---contactos--->
+        <div class="col-12 col-md-4 text-center text-md-right">
+          <a href="contacto.html" class="text-decoration-none text-dark">Contate-nos pelo site</a><br>
+          Email: <a href="albertochongo1@gmail.com"
+            class="text-decoration-none text-dark">albertochongo1@gmail.com</a><br>
+          Telefone: <a href="Telefone:+258844758293" class="text-decoration-none text-dark">+258844758293</a>
+        </div>
+        <!---icons--->
+        <div class="col-12 col-md-4 bg-light align-left">
+          <img src="icons/facebook.svg" alt="Bootstrap" width="28" height="28">
+          <img src="icons/whatsapp.svg" alt="Bootstrap" width="28" height="28">
+          <img src="icons/instagram.svg" alt="Bootstrap" width="28" height="28">
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
